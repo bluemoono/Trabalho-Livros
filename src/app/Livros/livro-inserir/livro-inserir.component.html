@@ -1,0 +1,23 @@
+<mat-card>
+    <mat-form-field>
+        <input type="text" matInput placeholder="nome" [(ngModel)]="nome">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput placeholder="autor" [(ngModel)]="autor">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput placeholder="descrição" [(ngModel)]="descricao">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput placeholder="edição" [(ngModel)]="edicao">
+    </mat-form-field>
+
+    <mat-form-field>
+        <input type="text" matInput placeholder="ISBN" [(ngModel)]="isbn">
+    </mat-form-field>
+
+    <button color="accent" mat-raised-button (click)="onAddLivro()">Inserir Livro</button>
+</mat-card>
